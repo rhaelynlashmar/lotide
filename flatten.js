@@ -26,7 +26,7 @@ const flatten = function(arr) {
   // give a space for the new array to exist
   // iterate through each element and see which ones are arrays
   // concatenate those arrays into single array 
-  singleArr = [];
+  let singleArr = [];
   for (let i = 0; i < arr.length; i++) {
     if (Array.isArray(arr[i])) {
       singleArr = singleArr.concat(arr[i]);
