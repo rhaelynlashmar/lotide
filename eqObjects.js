@@ -32,15 +32,15 @@ const eqObjects = function(object1, object2) {
   // loop through obj1 & obj2 arrays to see if they have the same keys
   for (const key of obj1Keys) {
     // We check to see if any of the values are arrays
-    if  (Array.isArray(object1[key] && Array.isArray(object2[key]))) {
+    if  (Array.isArray(object1[key]) && Array.isArray(object2[key])) {
     // If there is an array value, we run the eqArrays function and if they don't match return false
       if (!eqArrays(object1[key], object2[key])) {
         return false;
-    } else if 
-    // go on comparing the rest of the keys
-    (object1[key] !== object2[key]) {
-      return false;
-    }
+      } else if
+      // go on comparing the rest of the keys
+      (object1[key] !== object2[key]) {
+        return false;
+      }
 
     }
   }
