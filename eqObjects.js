@@ -36,9 +36,8 @@ const eqObjects = function(object1, object2) {
     // If there is an array value, we run the eqArrays function and if they don't match return false
       if (!eqArrays(object1[key], object2[key])) {
         return false;
-      } else if
-      // go on comparing the rest of the keys
-      (object1[key] !== object2[key]) {
+        // go on comparing the rest of the keys
+      } else if (object1[key] !== object2[key]) {
         return false;
       }
 
