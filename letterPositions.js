@@ -1,24 +1,19 @@
 // create a function that returns an object
-const letterPositions = function (sentence) {
-   const results = {};
-    // Loop through the string, checking each character
-    for (let i = 0; i < sentence.length; i++) {
-      // If the character is not a space, check if it is already a key in the object
-      if (sentence[i] !== " ") {
-        if (results[sentence[i]] === undefined) {
-          results[sentence[i]] = [i];
-        } else {
-          results[sentence[i]].push(i);
-        }
+const letterPositions = function(sentence) {
+  const results = {};
+  // Loop through the string, checking each character
+  for (let i = 0; i < sentence.length; i++) {
+    // If the character is not a space, check if it is already a key in the object
+    if (sentence[i] !== " ") {
+      if (results[sentence[i]] === undefined) {
+        results[sentence[i]] = [i];
+      } else {
+        results[sentence[i]].push(i);
       }
-        //if we have not encountered the letter yet add a key value pair to results with the letter as the key and an array with index as the value
-
-        //else we have already encounter this letter already, add the index to the existing array
-      
     }
-    // if it is push the current index to the array that is its value 
-    //if not, add it as a key to the object with a value of an array containing the current index
-   return results;
+  }
+    
+  return results;
 };
 
 console.log(letterPositions("lighthouse in the house"));
