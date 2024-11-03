@@ -2,7 +2,7 @@
 // We need to take in in the sentence (parameter 1)
 const countLetters = function(string) {
   // we need an object that takes the count to be returned
-  results = {};
+  let results = {};
   // I need to iterate over the sentence to look at each individual letter
   for (const character of string) {
     if (character !== ' ') {
@@ -14,7 +14,6 @@ const countLetters = function(string) {
     }
   }
   return results;
-}
+};
 
 console.log(countLetters("lighthouse in the house"));
-
