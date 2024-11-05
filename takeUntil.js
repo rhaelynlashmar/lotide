@@ -1,18 +1,17 @@
 const takeUntil = function(array, callback) {
   let results = [];
 
-  // need to loop through the array so we have the individual elements
+
   for (const elem of array) {
-    //if callback returns false add elem to results
+    // if callback returns false add elem to results
     if (callback(elem) === false) {
-      // if the element doesn't match the callback criteria to stop we push it into the new array
       results.push(elem);
     } else {
-      // As soon as you reach an element that does match the callback criteria we return the results to cease the function from continuing to loop
+      // If it's true, cease looping
       return results;
     }
   }
-  // If the callback criteria isn't met, it returns the array after it's looped all the way through
+  // If callback doesn't occur, still need to see what the array looks like
   return results;
 };
 
