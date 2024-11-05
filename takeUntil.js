@@ -8,13 +8,11 @@ const takeUntil = function(array, callback) {
       // if the element doesn't match the callback criteria to stop we push it into the new array
       results.push(elem);
     } else {
-      // As soon as you reach an element that does match the callback criteria we return 
-      // the results to cease the function from continuing to loop
+      // As soon as you reach an element that does match the callback criteria we return the results to cease the function from continuing to loop
       return results;
     }
   }
-  // If none of the criteria is met through the whole array, we return the entire array 
-  // back once it's been looped through all the elements
+  // If the callback criteria isn't met, it returns the array after it's looped all the way through
   return results;
 };
 
