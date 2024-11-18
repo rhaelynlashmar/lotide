@@ -20,10 +20,11 @@ const flatten = function(arr) {
 const nestedArray = [1, 2, [3, 4], 5, [6]];
 const nestedArray2 = [1, 2, [3, 4], 5];
 const flatArray = [1, 2, 3, 4, 5, 6];
+const flatArray2 = [1, 2, 3, 4, 5];
 
 const assertArraysEqual = require('./assertArraysEqual');
 
 assertArraysEqual(flatten(nestedArray), flatArray);
-assertArraysEqual(flatten(nestedArray2), flatArray);
+assertArraysEqual(flatten(nestedArray2), flatArray2);
 
 module.exports = flatten;
