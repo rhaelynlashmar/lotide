@@ -16,22 +16,14 @@ const countLetters = function(string) {
   return results;
 };
 
-
-console.log(countLetters("lighthouse in the house"));
-
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`❌❌❌  Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+const assertEqual = require('./assertEqual');
 
 assertEqual(countLetters("lighthouse in the house").l, 1);
 assertEqual(countLetters("lighthouse in the house").u, 2);
 assertEqual(countLetters("lighthouse in the house").h, 4);
 assertEqual(countLetters("lighthouse in the house").e, 3);
 
+module.exports = countLetters;
 
 
 
