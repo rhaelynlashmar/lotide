@@ -16,7 +16,11 @@ const countLetters = function(string) {
   return results;
 };
 
-const assertEqual = require('./assertEqual');
+
+// TO-DO: 
+// make a testing file within test folder for countLetters
+
+// const assertEqual = require('./assertEqual');
 
 // assertEqual(countLetters("lighthouse in the house").l, 1);
 // assertEqual(countLetters("lighthouse in the house").u, 2);
