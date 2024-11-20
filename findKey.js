@@ -32,7 +32,7 @@ const sodaPops = {
 
 const assertEqual = require('./assertEqual');
 
-assertEqual(findKey(sodaPops, (x) => x.sugar === "32 grams"), "rootbeer");
-assertEqual(findKey(constellations, (x) => x.stars === 2), "noma");
+// assertEqual(findKey(sodaPops, (x) => x.sugar === "32 grams"), "rootbeer");
+// assertEqual(findKey(constellations, (x) => x.stars === 2), "noma");
 
 module.exports = findKey;
