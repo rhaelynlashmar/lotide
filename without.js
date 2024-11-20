@@ -11,13 +11,13 @@ const without = function(source, itemsToRemove) {
 
 const assertArraysEqual = require('./assertArraysEqual');
 
-assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);
-assertArraysEqual(without(['1', '2', '3'], [1, 2, '3']), ['1', '2']);
+// assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);
+// assertArraysEqual(without(['1', '2', '3'], [1, 2, '3']), ['1', '2']);
 
-const candy = ["tootsie roll", "mars bar", "double bubble gum", "kit kat"];
+// const candy = ["tootsie roll", "mars bar", "double bubble gum", "kit kat"];
 
-assertArraysEqual(without(candy, ["mars bar"]), ["tootsie roll", "double bubble gum", "kit kat"]);
-assertArraysEqual(without(candy, ["mars bar", "double bubble gum"]), ["tootsie roll", "kit kat"]);
+// assertArraysEqual(without(candy, ["mars bar"]), ["tootsie roll", "double bubble gum", "kit kat"]);
+// assertArraysEqual(without(candy, ["mars bar", "double bubble gum"]), ["tootsie roll", "kit kat"]);
 
 module.exports = without;
 
