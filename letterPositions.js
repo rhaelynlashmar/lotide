@@ -17,7 +17,10 @@ const letterPositions = function(sentence) {
 };
 
 
-const assertArraysEqual = require('./assertArraysEqual');
+// TO-DO: 
+// make a testing file within test folder for letterPositions
+
+// const assertArraysEqual = require('./assertArraysEqual');
 
 // assertArraysEqual(letterPositions("hello").h, [0]);
 // assertArraysEqual(letterPositions("hello").e, [1]);
