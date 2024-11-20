@@ -1,6 +1,6 @@
 {
   "name": "@rhaelynlashmar/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a library with an assortment of functions to perform small tasks",
   "main": "index.js",
   "directories": {
