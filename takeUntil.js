@@ -13,12 +13,16 @@ const takeUntil = function(array, callback) {
   }
   // If callback doesn't occur, still need to see what the array looks like
   return results;
+
 };
+
+// TO-DO: 
+// make a testing file within test folder for takeUntil
 
 // const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 // const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
 
-const assertArraysEqual = require('./assertArraysEqual');
+// const assertArraysEqual = require('./assertArraysEqual');
 
 // assertArraysEqual(takeUntil(data1, x => x < 0), [1, 2, 5, 7, 2]);
 // assertArraysEqual(takeUntil(data2, x => x === ','), ["I've", "been", "to", "Hollywood"]);
