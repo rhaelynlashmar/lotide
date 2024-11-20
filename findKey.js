@@ -30,7 +30,10 @@ const sodaPops = {
 };
 
 
-const assertEqual = require('./assertEqual');
+// TO-DO: 
+// make a testing file within test folder for findKey
+
+// const assertEqual = require('./assertEqual');
 
 // assertEqual(findKey(sodaPops, (x) => x.sugar === "32 grams"), "rootbeer");
 // assertEqual(findKey(constellations, (x) => x.stars === 2), "noma");
