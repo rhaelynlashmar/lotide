@@ -30,7 +30,10 @@ const greatAuthorsAndBooks = {
   robertJordan: "The Wheel Of Time",
 };
 
-const assertEqual = require('./assertEqual');
+// TO-DO: 
+// make a testing file within test folder for findKeyByValue
+
+// const assertEqual = require('./assertEqual');
 
 // assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 // assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
