@@ -9,7 +9,10 @@ const without = function(source, itemsToRemove) {
   return result;
 };
 
-const assertArraysEqual = require('./assertArraysEqual');
+// TO-DO: 
+// make a testing file within test folder for without
+
+// const assertArraysEqual = require('./assertArraysEqual');
 
 // assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);
 // assertArraysEqual(without(['1', '2', '3'], [1, 2, '3']), ['1', '2']);
