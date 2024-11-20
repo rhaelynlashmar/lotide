@@ -8,7 +8,10 @@ const map = function(array, callback) {
 };
 
 
-const assertArraysEqual = require('./assertArraysEqual');
+// TO-DO: 
+// make a testing file within test folder for map
+
+// const assertArraysEqual = require('./assertArraysEqual');
 
 // const words = ['all', 'right', 'then.', 'keep', 'your', 'secrets'];
 // const colors = ["blue", "pink", "yellow", "green", "purple"];
