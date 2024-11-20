@@ -34,7 +34,10 @@ const result1 = countOnly(firstNames, {
   Agouhanna: false,
 });
 
-const assertEqual = require('./assertEqual');
+// TO-DO: 
+// make a testing file within test folder for countOnly
+
+// const assertEqual = require('./assertEqual');
 
 // assertEqual(result1["Jason"], 1);
 // assertEqual(result1["Karima"], undefined);
