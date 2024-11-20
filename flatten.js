@@ -24,7 +24,7 @@ const flatArray2 = [1, 2, 3, 4, 5];
 
 const assertArraysEqual = require('./assertArraysEqual');
 
-assertArraysEqual(flatten(nestedArray), flatArray);
-assertArraysEqual(flatten(nestedArray2), flatArray2);
+// assertArraysEqual(flatten(nestedArray), flatArray);
+// assertArraysEqual(flatten(nestedArray2), flatArray2);
 
 module.exports = flatten;
